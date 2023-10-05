@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 드라이버를 다운받아서 Library에 저장하고 bean에 담아 객체 생성해서 사용가능 / pom.xml의 127~131 라인 추가 -->
+	<bean id="db" class="org.springframework.jdbc.datasource.DriverManagerDataSource">	<!-- 드라이버매니저를 연결시킬 것 -->
+	
+	
+	
+	</bean>
+	
+	
+	
+	
+		
+</beans>
